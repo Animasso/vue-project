@@ -1,7 +1,10 @@
-<script setup></script>
+<script setup>
+import Home from "./views/Home.vue";
+</script>
 
 <template>
-  <div class="bg-blue-700 text-4xl">app Vue</div>
+  <router-view />
+  <!-- <Home /> -->
 </template>
 
 <style scoped></style>
